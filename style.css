@@ -1,0 +1,52 @@
+body {
+    margin-top: 50px;
+    background-color: darkgray;
+   
+
+}
+
+.block {
+    color: darkslateblue;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main_header_bold {
+    position: relative;
+font-weight: bold;
+    left: 300px;
+}
+
+.all_ul li {
+    padding-bottom: 10px;
+}
+/*mobie phone view*/
+
+@media only screen and (min-width: 375px) {
+    .block{
+        color: bisque;
+        text-decoration: none;
+    }
+
+    #main_header_bold{
+        position: initial;
+        font-weight: normal;
+
+    }
+}
+/*Ipad view*/
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: peru;
+        font-size: 25px;
+    }
+    
+    .block{
+        color: maroon;
+        text-decoration: underline;
+        font-style: oblique;
+        font-size: 30px;
+    }
+}
